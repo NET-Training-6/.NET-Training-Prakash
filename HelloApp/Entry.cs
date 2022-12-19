@@ -39,19 +39,49 @@
         //     }
         // }
 
+        //         var input = Console.ReadLine();
+        //         var number = int.Parse(input);
 
-        var number = 80;
+        //         if (number % 2 == 0)
+        //         {
+        //             Console.WriteLine(number + " is even");
+        //         }
+        //         else
+        //         {
+        //             Console.WriteLine(number + " is odd");
 
-        if (number % 2 == 0)
-        {
-            Console.WriteLine(number + " is even");
-        }
-        else
-        {
-            Console.WriteLine(number + " is odd");
-        }
-        }
-        }
-   
+        // Cw - Find simple interest for principal amount, time and rate given by user.
+
+        Console.WriteLine("principal amount");
+        int amount = int.Parse(Console.ReadLine());
+        Console.WriteLine("Enter a time period");
+        int time_period = int.Parse(Console.ReadLine());
+        Console.WriteLine("interest rate");
+        int interestrate = int.Parse(Console.ReadLine());
+        int simple_interest = amount * time_period * interestrate / 100;
+        Console.WriteLine("The simple interest =" + simple_interest);
+        Console.ReadLine();
+    }
+    }
+
+
+    
+
+
+
+
+
+
+
+//             Console.ReadKey();
+
+//         }
+//     }
+// }
+
+
+
+
+
 
 
