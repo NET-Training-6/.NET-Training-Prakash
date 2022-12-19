@@ -52,21 +52,33 @@
 
         // Cw - Find simple interest for principal amount, time and rate given by user.
 
-        Console.WriteLine("principal amount");
-        int amount = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter a time period");
-        int time_period = int.Parse(Console.ReadLine());
-        Console.WriteLine("interest rate");
-        int interestrate = int.Parse(Console.ReadLine());
-        int simple_interest = amount * time_period * interestrate / 100;
-        Console.WriteLine("The simple interest =" + simple_interest);
-        Console.ReadLine();
+        //     Console.WriteLine("principal amount");
+        //     int amount = int.Parse(Console.ReadLine());
+        //     Console.WriteLine("Enter a time period");
+        //     int time_period = int.Parse(Console.ReadLine());
+        //     Console.WriteLine("interest rate");
+        //     int interestrate = int.Parse(Console.ReadLine());
+        //     int simple_interest = amount * time_period * interestrate / 100;
+        //     Console.WriteLine("The simple interest =" + simple_interest);
+        //     Console.ReadLine();
+        // }
+        // }
+
+        //Find if user supplied number is multiple of 3 and 5
+
+
+        Console.Write("Enter an number:");
+        int x = Convert.ToInt32(Console.ReadLine());
+        if ((x % 3 == 0) && (x % 5 == 0))
+        {
+            Console.WriteLine("The number" + x + " is multiple of 3 and 5");
+        }
+        else
+        {
+            Console.WriteLine("The number" + x + " is not  multiple of 3 and 5");
+        }
     }
-    }
-
-
-    
-
+}
 
 
 
