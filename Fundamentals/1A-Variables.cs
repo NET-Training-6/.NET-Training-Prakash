@@ -1,3 +1,4 @@
+using System;
 namespace Basics;
 class Variable
 {
@@ -31,6 +32,5 @@ class Variable
         // Dates and times
         DateTime dob;
     
-
     }
 }
