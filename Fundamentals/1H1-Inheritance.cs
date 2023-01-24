@@ -35,7 +35,6 @@ interface ID
 
 }
 
-
 // Multiple
 class E : B, ID   // Class E inherits B and implements ID
 {
