@@ -1,12 +1,11 @@
 // Create a "Room" class with following:
 //  - At least 4 fields
 //  - Two methods 
-//      - First method takes no parameter and return some value
-//      - Second method should return value and takes two parameters
+//  - First method takes no parameter and return some value
+//  - Second method should return value and takes two parameters
 //  - Caller should be able to create objects/instances of this class as follows:\
-//      var room1 = new Room();
-//      var room2 = new Room(provide all 4 data fields);
-
+//    var room1 = new Room();
+//    var room2 = new Room(provide all 4 data fields);
 class Room
 {
     double length;
