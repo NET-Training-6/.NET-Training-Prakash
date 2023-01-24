@@ -1,7 +1,6 @@
 class Cigarette
 {
-    // Members: fields, methods, properties
-    
+    // Members: fields, methods, properties    
     // Full property definition 
     double price;
     public double Price
