@@ -4,17 +4,17 @@ class Methods
     // and returns if number is even or odd   
     public bool IsEven(int number)
     {
-        if(number % 2 == 0)
+        if (number % 2 == 0)
             return true;
         else
-            return false;  
+            return false;
     }
 
     // Write a method that takes an number array and returns average of those.
     public double CalculateAverage(params int[] numbers)   // [3, 5, 1, 8, 9]
     {
         var sum = 0;
-        foreach(var num in numbers)
+        foreach (var num in numbers)
         {
             sum = sum + num;
         }
@@ -27,9 +27,9 @@ class Methods
     public double CalculateMinimum(params int[] numbers)     // [3, 5, 1, 8, 9]
     {
         var min = numbers[0];
-        foreach(var num in numbers)
+        foreach (var num in numbers)
         {
-            if(num < min)
+            if (num < min)
             {
                 min = num;
             }
