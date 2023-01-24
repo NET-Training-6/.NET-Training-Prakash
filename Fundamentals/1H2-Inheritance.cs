@@ -1,17 +1,16 @@
 // Write a class for rectangle, this class should have methods to calulate
 // area and perimeter.
 
+using System;
 class Rectangle: IShape
 {
     double length;
     double width;
-
     public Rectangle(double l, double w)
     {
         length = l;
         width = w;
     }
-
     public double GetArea() => length * width;
     public double GetPerimeter() => 2 * (length + width);
     public virtual void PrintDetails()
@@ -48,7 +47,6 @@ class Triangle: IShape
         this.b = b;
         this.c = c;
     }
-
     public double GetPerimeter() => a + b + c;
     public double GetArea() 
     {
