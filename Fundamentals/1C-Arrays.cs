@@ -1,3 +1,5 @@
+using System;
+
 class ArrayLeaner
 {
     public void LearnArrays()
@@ -24,10 +26,6 @@ class ArrayLeaner
         jArray[0] = new decimal[] { 2, 3, 4, 5, 7 };
         jArray[1] = new decimal[] { 21, 30, 47 };
     }
-
-
-
-
 }
 
 // Create appropriate data structure for following:
