@@ -1,3 +1,5 @@
+using System;
+
 class ConditionalLearner
 {
     // Ask user to enter his total percentage and greet him as following:
@@ -33,7 +35,6 @@ class ConditionalLearner
     void Task2()
     {
         var d = DateTime.Now.DayOfWeek;
-
         switch (d)
         {
             case DayOfWeek.Sunday:
