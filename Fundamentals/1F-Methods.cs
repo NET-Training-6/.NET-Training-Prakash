@@ -14,11 +14,9 @@
 //         Console.WriteLine("Hello World");
 //         Console.WriteLine("Message");
 
-
 //     }
 
 //     //Method that returns something and takes some argument(s)
-
 //     public double Sum(double a, double b)
 //     {
 //         var s = a + b;
@@ -28,7 +26,6 @@
 //     //Write a method takes number as a argument and 
 //     // returns if number is even or odd
 
-
 //     public bool isEven(int number)
 
 //     {
@@ -37,9 +34,7 @@
 //         else
 //             return false;
 
-
 //     }
-
 
 // public double CalculateAverage(int num1, int num2, int num3 =0)
 // {
@@ -57,19 +52,13 @@
 // }
 
 // Var average = sum
-
-
-
 // }
-
-
-
-
 
 // Write a method that takes bunch of numbers and returns minimum among them.
 
-
 // Write 
+using System;
+
 class MethodLearner
 {
     // 1. Method that returns nothing and takes no arguments
