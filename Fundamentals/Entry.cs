@@ -1,75 +1,95 @@
-﻿// class EntryPoint
-// {
-//     public static void Main()
-//     {
-//         Person person1 = new();
-//         person1.name = "Prakash Saud";
-//         person1.age = 23;
+﻿class EntryPoint
+{
+    public static void Main()
+    {
 
-//         // Person person2 = new();        
-//         Person person3 = new();
-//         Person person4 = new();
-//         Person person5 = new();
-//         Person person6 = new();
-//         Person person7 = new();
-//         Person person8 = new();
+        //         //                 Person person1 = new();
+        //         //                 person1.name = "Prakash Saud";
+        //         //                 person1.age = 23;
 
-//         // ArrayLearner al = new();
-//         // al.LearnArrays();
+        //         //         //         // Person person2 = new();        
+        //         //         //         Person person3 = new();
+        //         //         //         Person person4 = new();
+        //         //         //         Person person5 = new();
+        //         //         //         Person person6 = new();
+        //         //         //         Person person7 = new();
+        //         //         //         Person person8 = new();
 
-//         // MethodLearner ml = new();
-//         // Methods m = new();
-//         // ml.Print();
-//         // ml.Print();
-//         // ml.Print("638756");
+        //         //         //         // ArrayLearner al = new();
+        //         //         //         // al.LearnArrays();
 
-//         // var s = ml.Sum(23423.242, 4535.23);
-//         // var x = m.IsEven(314243);
+        //         //         //         // MethodLearner ml = new();
+        //         //         //         // Methods m = new();
+        //         //         //         // ml.Print();
+        //         //         //         // ml.Print();
+        //         //         //         // ml.Print("638756");
 
-//         // // Named arguements
-//         // var y1 = ml.CalculateAverage(num2: 3434, num1: 345353, num3: 67868);
-//         // var y2 = ml.CalculateAverage(3434, 3453523);
+        //         //         //         // var s = ml.Sum(23423.242, 4535.23);
+        //         //         //         // var x = m.IsEven(314243);
 
-//         // int[] marks = { 67, 78, 98, 45, 70, 80 };
-//         // int[] marks1 = { 67, 78, 98, 45, 70, 80, 34, 34_534, 345_353, 3453 };
-//         // //var z = ml.CalculateAverage(new int[] { 67, 78, 98, 45, 70, 80 });
-//         // var z1 = ml.CalculateAverage(67, 78);
-//         // var z2 = m.CalculateAverage(67, 78, 98, 45, 70, 80, 34, 34_534, 345_353, 3453);
+        //         //         //         // // Named arguements
+        //         //         //         // var y1 = ml.CalculateAverage(num2: 3434, num1: 345353, num3: 67868);
+        //         //         //         // var y2 = ml.CalculateAverage(3434, 3453523);
 
-//         // var (sum, product) = ml.GetSumAndProduct(34, 56);
+        //         //         //         // int[] marks = { 67, 78, 98, 45, 70, 80 };
+        //         //         //         // int[] marks1 = { 67, 78, 98, 45, 70, 80, 34, 34_534, 345_353, 3453 };
+        //         //         //         // //var z = ml.CalculateAverage(new int[] { 67, 78, 98, 45, 70, 80 });
+        //         //         //         // var z1 = ml.CalculateAverage(67, 78);
+        //         //         //         // var z2 = m.CalculateAverage(67, 78, 98, 45, 70, 80, 34, 34_534, 345_353, 3453);
 
-//         // Creating object with parameters
-//         // Animal a1 = new();
-//         // Animal a2 = new("cat", true);
-//         // Animal a3 = new(name: "cat", legs: 4, isDomestic: true);
-//         // Animal a4 = new("pig", false, 4);
+        //         //         //         // var (sum, product) = ml.GetSumAndProduct(34, 56);
 
-//         // var r3 = new Room(454.5, 123.5);
-//         // var r = r3.GetArea();
+        //         //         //         // Creating object with parameters
+        //         //         //         // Animal a1 = new();
+        //         //         //         // Animal a2 = new("cat", true);
+        //         //         //         // Animal a3 = new(name: "cat", legs: 4, isDomestic: true);
+        //         //         //         // Animal a4 = new("pig", false, 4);
 
-//         // var r2 = new Room(454.5, 123.5, "Red", 23);
-//         // var rr = r2.GetArea();
+        //         //         //         // var r3 = new Room(454.5, 123.5);
+        //         //         //         // var r = r3.GetArea();
 
-//         // Console.WriteLine($"Area of room r2: {rr} square inch");
+        //         //         //         // var r2 = new Room(454.5, 123.5, "Red", 23);
+        //         //         //         // var rr = r2.GetArea();
 
-//         // var r1 = new Rectangle(34.35, 12.45);
-//         // r1.GetArea();
-//         // r1.GetPerimeter();
-//         // r1.PrintDetails();
+        //         //         //         // Console.WriteLine($"Area of room r2: {rr} square inch");
 
-//         // var s1 = new Square(24.35);
-//         // s1.GetArea();
-//         // s1.GetPerimeter();
-//         // s1.PrintDetails();
+        //         //         //         // var r1 = new Rectangle(34.35, 12.45);
+        //         //         //         // r1.GetArea();
+        //         //         //         // r1.GetPerimeter();
+        //         //         //         // r1.PrintDetails();
 
-//         // I have a string variable called address which holds value like 
-//         // "Tinkune, Kathmandu, Nepal"
-//         // 1. Print locality name
-//         // 2. Print City name
-//         // 3. Print Country name
+        //         //         //         // var s1 = new Square(24.35);
+        //         //         //         // s1.GetArea();
+        //         //         //         // s1.GetPerimeter();
+        //         //         //         // s1.PrintDetails();
 
-//         // var address = "Tinkune, Kathmandu-Nepal";
-//         // var parts = address.Split(new char[] { ',', '-' });
-//         // Console.WriteLine($"Locality: {parts[0]}, City: {parts[1]}, Country: {parts[2]}");
-//     }
-// }
+        //         //         //         // I have a string variable called address which holds value like 
+        //         //         //         // "Tinkune, Kathmandu, Nepal"
+        //         //         //         // 1. Print locality name
+        //         //         //         // 2. Print City name
+        //         //         //         // 3. Print Country name
+
+        //         //         //         // var address = "Tinkune, Kathmandu-Nepal";
+        //         //         //         // var parts = address.Split(new char[] { ',', '-' });
+        //         //         //         // Console.WriteLine($"Locality: {parts[0]}, City: {parts[1]}, Country: {parts[2]}"
+
+        //         // CollectionLearner cl = new CollectionLearner();
+        //         // cl.LearnLists();
+
+        //         paragraph p = new paragraph();
+        //         p.countSentences();
+        //         p.countWords();
+        //         p.GetFrequciesOfCharacters();
+
+        //  CollectionSolution cs = new CollectionSolution();
+        //   cs.LearnDictionary();
+
+        // linq l = new();
+        // l.Test2();
+        //  l.LearnToQueryComplexCollection();
+        FileAndDictonary fd = new FileAndDictonary();
+        fd.LearnFilesAndFolders();
+        fd.LearnFilesAndFolders();
+        
+    }
+}
