@@ -1,19 +1,16 @@
 // Constants
-
 public class Car
 {
     public Car()
     {
         gears = 5;
     }
-
     string vendor;
     string category;
     public double price;
     const byte noOfWheels = 4;  // Compile-time
     readonly byte gears = 6;    // Runtime
     static byte seats = 4;
-
     public void Test()
     {
         //noOfWheels = 5;
@@ -28,7 +25,6 @@ public class Car
         // var initials = parts[0][0] + parts[1][0];
     }
 }
-
 
 // Static
 // Access modifiers: 
